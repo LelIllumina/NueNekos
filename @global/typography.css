@@ -1,12 +1,14 @@
 body {
-	font-family: -apple-system, BlinkMacSystemFont, Avenir Next, Segoe UI, Roboto,
-		sans-serif;
+	font-family: Iosevka Etoile, -apple-system, BlinkMacSystemFont, Avenir Next,
+		Segoe UI, Roboto, sans-serif;
 }
 
 /* heading and subtitle */
 h1 {
+	font-family: "Fasad", sans-serif;
 	letter-spacing: -0.03em;
 	font-size: 2.6rem;
+	color: var(--lavender-blush);
 
 	&,
 	+ p {
@@ -29,11 +31,13 @@ a {
 
 	/* navigational links */
 	nav & {
+		font-family: Lemon Milk, sans-serif;
 		font-weight: 500;
-		color: var(--gray-900);
+		color: var(--lavender-blush);
+		text-shadow: 1px 1px var(--raisin-black);
 
 		&[aria-current] {
-			text-decoration: 2px underline var(--main-500);
+			text-decoration: 2px underline var(--tan);
 			text-underline-offset: 8px;
 		}
 	}
@@ -42,9 +46,39 @@ a {
 /* bulk content */
 p,
 li {
-	color: var(--gray-500);
+	color: var(--ash-gray);
 	line-height: 1.65;
 	strong {
 		color: var(--gray-800);
 	}
+}
+
+@font-face {
+	font-family: "Lemon Milk";
+	src: url(/fonts/LemonMilk-regular.woff2) format("woff2"),;
+}
+
+@font-face {
+	font-family: "Iosevka Etoile";
+	src: url(/fonts/IosevkaEtoile-Regular.woff2) format("woff2");
+}
+
+@font-face {
+	font-family: "plexifont";
+	src: url(/fonts/plexifont-webfont.woff) format("woff2");
+}
+
+@font-face {
+	font-family: "Gunsan Script";
+	src: url(/fonts/gunsan-script.woff2) format("woff2");
+}
+
+@font-face {
+	font-family: "Gunsan";
+	src: url(/fonts/gunsan.woff2) format("woff2");
+}
+
+@font-face {
+	font-family: "Fasad";
+	src: url(/fonts/Fasad-Regular.ttf) format("truetype");
 }

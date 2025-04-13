@@ -7,38 +7,22 @@ view_transitions: true
 native_css_nesting: true
 inline_css: true
 sections: true
+prefetch:
+  - /img/bgopt.jpg
 
-title_template: "Emma Bennet / %s"
-og_image: /img/og_emma.png
-author: Emma Bennet
-favicon: /img/favicon.jpg
-description: Minimalist, designer, and UX developer
+title_template: "Lel@Nekoweb.org / %s"
+og_image: /img/bgopt.jpg
+author: Lel Illumina
+favicon: /img/favicon.png
+description: All Nekos are mine.
 port: 8083
 
 # OG image
-origin: https://simple-blog.nuejs.org
-og: /img/og.jpg
+origin: https://lel.nekoweb.org
+og: /img/bgopt.jpg
 
 
 navigation:
   header:
-    - Emma Bennet: /
-    - Contact: /contact/
-
-  footer:
-    - © Emma Bennet: /
-
-    - image: /img/twitter.svg
-      url: //x.com/tipiirai
-      alt: Twitter (X) profile
-      size: 22 x 22
-
-    - image: /img/github.svg
-      url: //github.com/nuejs/nue/
-      alt: Github Projects
-      size: 22 x 22
-
-    - image: /img/linkedin.svg
-      url: //linkedin.com/in/tipiirai
-      alt: LinkedIn profile
-      size: 22 x 22
+    - Main: /
+    - Blog: /blog/

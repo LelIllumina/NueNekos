@@ -1,0 +1,38 @@
+body {
+	max-width: 100vw;
+	background-image: url("img/bgopt.jpg");
+	background-position: center;
+	background-size: auto 95%;
+	background-repeat: no-repeat;
+}
+
+h1 {
+	font-size: 5rem;
+	line-height: 0.8;
+	font-family: plexifont, fantasy;
+	max-width: 50rem;
+	width: 80vw;
+	mix-blend-mode: color-dodge;
+	color: var(--tan);
+	text-shadow: 2px 2px var(--marker);
+	margin: 0;
+	text-align: start;
+}
+
+#subtext p {
+	font-size: 2rem;
+	font-family: Gunsan, sans-serif;
+	color: var(--lavender-blush);
+	margin: 7.5vh auto;
+	text-align: center;
+	mix-blend-mode: hard-light;
+}
+
+@keyframes slide-up {
+	0% {
+		transform: translateY(100px);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
