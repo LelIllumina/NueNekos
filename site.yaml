@@ -7,6 +7,7 @@ view_transitions: true
 native_css_nesting: true
 inline_css: true
 sections: true
+heading_ids: true
 prefetch:
   - /img/bgopt.jpg
 
@@ -20,6 +21,7 @@ port: 8083
 
 # OG image
 origin: https://lel.nekoweb.org
+theme_color: "#722014"
 
 
 navigation:
