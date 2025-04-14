@@ -1,7 +1,7 @@
 /* basic form styling  */
 :focus-visible {
 	outline: 3px solid var(--gray-100);
-	border-color: var(--main-500);
+	border-color: var(--falu-red);
 	outline-offset: 1px;
 }
 
@@ -34,7 +34,7 @@ textarea {
 
 button,
 [role="button"] {
-	background-color: var(--main-500);
+	background-color: var(--falu-red);
 	font-family: inherit;
 	font-size: inherit;
 	width: 100%;
@@ -44,9 +44,10 @@ button,
 	cursor: pointer;
 	color: white;
 	border: 0;
+	transition: 0.05s ease-in-out;
 
 	&:hover {
-		background-color: var(--main-600);
+		background-color: var(--navy-blue);
 	}
 
 	&:active {

@@ -30,6 +30,14 @@ h1 {
 	mix-blend-mode: hard-light;
 }
 
+#mainButton {
+	display: block;
+	width: fit-content;
+	margin: 7.5vh auto;
+	text-align: center;
+	mix-blend-mode: hard-light;
+}
+
 @keyframes slide-up {
 	0% {
 		transform: translateY(100px);

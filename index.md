@@ -1,5 +1,5 @@
 ---
-include: [ motion ]
+include: [ motion, forms ]
 ---
 
 [#title]
@@ -7,3 +7,6 @@ include: [ motion ]
 
 [#subtext]
     Welcome to lel.nekoweb.org
+
+[button#mainButton "A certain fancy grid Layout" href="/grid/"]
+    
