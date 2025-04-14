@@ -64,17 +64,17 @@ li {
 
 @font-face {
 	font-family: "Lemon Milk";
-	src: url(/fonts/LemonMilk-regular.woff2) format("woff2"),;
+	src: url(/fonts/LEMONMILK.woff2) format("woff2");
 }
 
 @font-face {
 	font-family: "Iosevka Etoile";
-	src: url(/fonts/IosevkaEtoile-Regular.woff2) format("woff2");
+	src: url(/fonts/IosevkaEtoile.woff2) format("woff2");
 }
 
 @font-face {
 	font-family: "plexifont";
-	src: url(/fonts/plexifont-webfont.woff) format("woff2");
+	src: url(/fonts/plexifont.woff) format("woff2");
 }
 
 @font-face {
@@ -89,5 +89,5 @@ li {
 
 @font-face {
 	font-family: "Fasad";
-	src: url(/fonts/Fasad-Regular.ttf) format("truetype");
+	src: url(/fonts/fasad.ttf) format("truetype");
 }
