@@ -38,7 +38,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: site-build
-          path: dist/prod/
+          path: .dist/prod/
 
   deploy-to-nekoweb:
     runs-on: ubuntu-latest
@@ -48,7 +48,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: site-build
-          path: dist/prod/
+          path: .dist/prod/
 
       - name: Deploy to NekoWeb
         uses: deploy2nekoweb/deploy2nekoweb@main
@@ -56,7 +56,7 @@ jobs:
           nekoweb-api-key: ${{ secrets.NEKOWEB_API_KEY }}
           nekoweb-cookie: ${{ secrets.NEKOWEB_COOKIE }}
           nekoweb-folder: "/dist/"
-          directory: "dist/prod/"
+          directory: ".dist/prod/"
 
   deploy-to-gh-pages:
     runs-on: ubuntu-latest
@@ -69,7 +69,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: site-build
-          path: dist/prod/
+          path: .dist/prod/
 
       - name: Deploy to GitHub Pages
         id: deployment
