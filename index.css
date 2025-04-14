@@ -4,11 +4,13 @@ body {
 	background-position: center;
 	background-size: auto 95%;
 	background-repeat: no-repeat;
+	/* border-left: 20px solid var(--navy-blue); */
+	/* border-right: 20px solid var(--navy-blue); */
 }
 
 h1 {
 	font-size: 5rem;
-	line-height: 0.8;
+	/* line-height: 0.8; */
 	font-family: plexifont, fantasy;
 	max-width: 50rem;
 	width: 80vw;

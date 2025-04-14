@@ -1,0 +1,50 @@
+#grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	gap: 50px 50px;
+	grid-template-areas:
+		". . ."
+		"title title title"
+		". . ."
+		". . .";
+	justify-items: stretch;
+	align-items: stretch;
+	color: var(--lavender-blush);
+	color: white !important;
+	/* font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif !important; */
+}
+
+#grid figure {
+	margin: 0;
+}
+
+#grid img {
+	height: 100px;
+	width: 100px;
+	/* box-shadow: #313029f4 0px 48px 100px 0px; */
+}
+#title {
+	grid-area: title;
+	height: 100px;
+}
+
+#title h2,
+#title h1 {
+	font-weight: 900;
+	margin: 0;
+	display: block;
+}
+#title h2 {
+	font-size: 2em;
+}
+
+#title h1 {
+	font-size: 4em;
+	text-align: left;
+}
+
+#contents {
+	height: 150px;
+	width: 150px;
+}
