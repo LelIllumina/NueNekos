@@ -1,0 +1,12 @@
+<header @name="pagehead">
+  <h1>{ title }</h1>
+  <p>{ desc } <br>
+    <pretty-date :date="date" />
+  </p>
+  <img :src="thumb" alt="{desc}">
+</header>
+
+<footer @name="pagefoot">
+  <div id="c_widget"></div>
+  <script src="comment-widget.js"></script>
+</footer>

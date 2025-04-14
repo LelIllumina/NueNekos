@@ -11,13 +11,13 @@
 	--marker: #ffff7a;
 
 	/* new */
-	--russet: #7e4827ff;
-	--tan: #ccb28dff;
-	--night: #121112ff;
-	--lavender-blush: #f1e5e9ff;
-	--van-dyke: #49372bff;
-	--raisin-black: #252526ff;
-	--falu-red: #722014ff;
-	--ash-gray: #e9f0f1ff;
-	--navy-blue: #0c262eff;
+	--night: #121112;
+	--raisin-black: #252526;
+	--van-dyke: #49372b;
+	--russet: #7e4827;
+	--tan: #ccb28d;
+	--navy-blue: #0c262e;
+	--falu-red: #722014;
+	--ash-gray: #e9f0f1;
+	--lavender-blush: #f1e5e9;
 }

@@ -10,6 +10,7 @@ sections: true
 prefetch:
   - /img/bgopt.jpg
 
+
 title_template: "Lel@Nekoweb.org / %s"
 og_image: /img/bgopt.jpg
 author: Lel Illumina
@@ -19,10 +20,9 @@ port: 8083
 
 # OG image
 origin: https://lel.nekoweb.org
-og: /img/bgopt.jpg
 
 
 navigation:
   header:
     - Main: /
-    - Blog: /blog/
+    - Blogs: /blog/
