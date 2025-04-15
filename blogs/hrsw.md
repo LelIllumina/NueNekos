@@ -1,8 +1,9 @@
 ---
 title: "Nurse Cafe"
-desc: "The Man from Memories"
+og_description: "The Man from Memories"
+description: "The Man from Memories"
 date: 2025-02-23
-thumb: img/p-model_poster.jpg
+thumb: /blogs/img/p-model_poster.jpg
 ---
 
 It is the year 2034, A sole man lies on a hospital bed peering outside the window into the university's yard, a _Lotus_ floating in its pond. This man, Susumu Hirasawa, at his ripe age of 80 years old, rests his head in his town's university's medical facility. It's the nearest place that provides Kampo for his medical treatment.

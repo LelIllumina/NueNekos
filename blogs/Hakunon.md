@@ -1,8 +1,9 @@
 ---
 title: "Hakunon my Beloved"
-desc: "I love her so much"
+og_description: "I love her so much"
+description: "I love her so much"
 date: 2024-09-23
-thumb: img/hakunon/HakunonAndHakunot.jpg
+thumb: /blogs/img/hakunon/HakunonAndHakunot.jpg
 
 ---
 

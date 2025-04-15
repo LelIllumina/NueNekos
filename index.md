@@ -2,11 +2,9 @@
 include: [ motion, forms ]
 ---
 
-[#title]
-    # Lel this Lel that why dont you lel me
+# Lel this Lel that why dont you lel me
 
 [#subtext]
     Welcome to lel.nekoweb.org
 
-[button#mainButton "A certain fancy grid Layout" href="/grid/"]
-    
+[button#mainButton "Go on lets go" href="/main/"]

@@ -9,6 +9,10 @@ html {
 	margin: 0;
 }
 
+:root {
+	color-scheme: dark;
+}
+
 /* consistent whitespace */
 ul,
 ol,
@@ -20,7 +24,7 @@ pre {
 /* page layout */
 body {
 	/* max-width: 1000px; */
-	height: 100vh;
+	min-height: 100vh;
 	margin: 0 auto;
 	padding: 2% 5%;
 	background-color: var(--night);
