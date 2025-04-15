@@ -31,13 +31,12 @@ pre {
 }
 
 /* images and code blocks */
-img,
-pre {
-	border-radius: 8px;
+figure {
+	text-align: center;
+	margin: 2em 0;
 }
 
 img {
-	display: block;
 	max-width: 100%;
 	max-height: 500px;
 	height: auto;

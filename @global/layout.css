@@ -28,6 +28,7 @@ body {
 	margin: 0 auto;
 	padding: 2% 5%;
 	background-color: var(--night);
+	overflow-x: hidden;
 
 	> header nav {
 		justify-content: space-between;
@@ -53,11 +54,20 @@ body {
 
 	/* global footer */
 	> footer {
-		border-top: 1px solid var(--gray-200);
-		margin-top: 8rem;
+		/* border-top: 1px solid var(--gray-200); */
+		margin-top: 2rem;
+		> p {
+			font-size: 1.5rem;
+			width: 100vw;
+			position: relative;
+			right: 0;
+			bottom: 0;
+			white-space: nowrap;
+			margin: 0 -100px;
+		}
 
 		nav {
-			padding: 1rem 0;
+			/* padding: 1rem 0; */
 			display: flex;
 			gap: .5em;
 
