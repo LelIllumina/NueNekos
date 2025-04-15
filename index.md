@@ -1,5 +1,6 @@
 ---
 include: [ motion, forms ]
+og: /img/bg.png
 ---
 
 # Lel this Lel that why dont you lel me
