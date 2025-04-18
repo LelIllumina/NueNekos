@@ -2,10 +2,10 @@ body {
 	/* border-left     : 20px solid var(--navy-blue); */
 	/* border-right    : 20px solid var(--navy-blue); */
 	max-width: 100vw;
-	background-image: url("img/bg.jpg");
+	background-image: url("img/background.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: auto 95%;
+	background-size: auto 90%;
 }
 
 h1 {
@@ -14,10 +14,15 @@ h1 {
 	width: 80vw;
 	max-width: 50rem;
 	margin: 0;
-	font-size: 4.5rem;
-	font-family: plexifont, fantasy;
+	font-size: 10rem;
+	font-family: Archoblast, fantasy;
 	color: var(--tan);
 	text-shadow: 2px 2px greenyellow;
+	font-feature-settings: "liga" 1, "clig" 1, "dlig" 1, "ss01" 1, "ss02" 1;
+}
+h2 {
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	text-align: center;
 }
 
 #subtext p {
@@ -35,6 +40,8 @@ h1 {
 	width: fit-content;
 	margin: 7.5vh auto;
 	text-align: center;
+	font-size: 2rem;
+	line-height: 0.5;
 }
 
 @keyframes slide-up {
@@ -45,8 +52,4 @@ h1 {
 	100% {
 		transform: translateY(0);
 	}
-}
-
-footer {
-	display: none;
 }

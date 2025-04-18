@@ -1,11 +1,16 @@
 ---
 include: [ motion, forms ]
 og: /img/bg.png
+footer: false
 ---
 
-# Lel this Lel that why dont you lel me
+<!-- move main text to left and add a list of pages on the right ref: https://svelte.dev/ -->
+
+# Lel@NekoWEB
 
 [#subtext]
     Welcome to lel.nekoweb.org
 
-[button#mainButton "Go on lets go" href="/main/"]
+[button#mainButton "Enter" href="/main/"]
+
+## Bewarned potential NSFW and WIP ahead

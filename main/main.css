@@ -1,13 +1,13 @@
 main {
 	display: grid;
-	grid-template-columns: 0.5fr 1.5fr;
-	grid-template-rows: repeat(3, 1fr);
 	gap: 0px 0px;
-	grid-auto-flow: row;
+	grid-template-rows: repeat(3, 1fr);
+	grid-template-columns: 0.5fr 1.5fr;
 	grid-template-areas:
 		"aside article"
 		"aside article"
 		"aside article";
+	grid-auto-flow: row;
 }
 
 aside {
@@ -17,38 +17,54 @@ aside {
 article {
 	grid-area: article;
 }
+marquee img {
+	border-radius: 0;
+	image-rendering: pixelated;
+}
+
+#stuff {
+	text-align: center;
+	padding: 50px;
+}
 
 #views {
+	display: block;
 	text-align: center;
 }
 
-#stats-container {
+.container {
 	display: flex;
 	justify-content: space-around;
+	width: 100%;
+	text-align: center;
+	margin: 10px auto;
 }
 
-#stats {
-	margin: auto 0;
+#commitLink {
+	font-size: 12px;
+	text-decoration: none;
 }
 
-#lel {
-	height: 350px;
-	padding: 5px;
-	border: 5px double var(--foreground);
-	transition: 1s;
-}
-
-#lel:hover {
-	border: 5px double var(--accent);
-}
-
-.smol {
-	font-size: 0.8rem;
-	color: var(--text-dark);
+#commitLink > div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	text-align: center;
 }
 
-#webrings {
-	display: flex;
-	justify-content: space-around;
+#commitLink > div > div {
+	border: 3px dashed var(--van-dyke);
+	color: var(--navy-blue);
+	background-color: var(--night);
+	transition: background-color 1s;
+	font-size: 12px;
+}
+
+#commitLink > div > div:hover {
+	border: 3px dashed var(--navy-blue);
+}
+
+#shortHash {
+	color: var(--van-dyke);
+	background-color: var(--tan);
 }

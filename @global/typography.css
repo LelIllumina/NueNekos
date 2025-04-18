@@ -1,11 +1,10 @@
 body {
-	font-family: Iosevka Etoile, -apple-system, BlinkMacSystemFont, Avenir Next,
-		Segoe UI, Roboto, sans-serif;
+	font-family: "Computer Says No", "Iosevka Etoile", -apple-system,
+		BlinkMacSystemFont, Avenir Next, Segoe UI, Roboto, sans-serif;
 }
 
 /* heading and subtitle */
 h1 {
-	font-family: "Fasad", sans-serif;
 	letter-spacing: -0.03em;
 	font-size: 2.6rem;
 	color: var(--lavender-blush);
@@ -19,7 +18,7 @@ h1 {
 	}
 
 	+ p {
-		font-size: 1.15em;
+		font-size: 2.25em;
 		font-weight: 300;
 		margin-bottom: 2em;
 	}
@@ -31,7 +30,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: "Fasad", sans-serif;
+	font-family: "Mica Valo", sans-serif;
 }
 
 /* links */
@@ -56,9 +55,10 @@ a {
 p,
 li {
 	color: var(--ash-gray);
-	line-height: 1.65;
+	line-height: 0.95;
+	font-size: 2rem;
 	strong {
-		color: var(--lavender-bush);
+		color: var(--marker);
 	}
 }
 
@@ -73,8 +73,38 @@ li {
 }
 
 @font-face {
+	font-family: "Computer says no";
+	src: url(/fonts/ComputerSaysNo.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: "Amplitude";
+	src: url(/fonts/AmplitudeCondensed.ttf) format("truetype");
+}
+
+@font-face {
 	font-family: "plexifont";
 	src: url(/fonts/plexifont.woff) format("woff2");
+}
+
+@font-face {
+	font-family: "Mica";
+	src: url(/fonts/Mica.woff) format("woff2");
+}
+
+@font-face {
+	font-family: "Mica Valo";
+	src: url(/fonts/MicaValo.otf) format("opentype");
+}
+
+@font-face {
+	font-family: "Blaster";
+	src: url(/fonts/Blaster.otf) format("opentype");
+}
+
+@font-face {
+	font-family: "Archoblast";
+	src: url(/fonts/Archoblast.otf) format("opentype");
 }
 
 @font-face {

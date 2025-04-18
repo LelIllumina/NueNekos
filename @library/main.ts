@@ -1,9 +1,22 @@
-async function fetchNekostats(username) {
+export default async function fetchNekostats(
+	username: string,
+): Promise<NekostatsResponse> {
 	const response = await fetch(`https://nekoweb.org/api/site/info/${username}`);
 
 	const data = await response.json();
 
 	return data;
+}
+
+export interface NekostatsResponse {
+	id: number;
+	username: string;
+	title: string;
+	updates: number;
+	followers: number;
+	views: number;
+	created_at: number;
+	updated_at: number;
 }
 (async () => {
 	try {
@@ -11,16 +24,18 @@ async function fetchNekostats(username) {
 
 		const updated = new Date(json.updated_at).toLocaleDateString(); // Formats Last Updated text
 		const created = new Date(json.created_at).toLocaleDateString(); // Formats Creation Date text
-		document.getElementById("created").innerHTML =
+		(document.getElementById("created") as HTMLParagraphElement).innerHTML =
 			`<em>Created</em>: <time datetime="${created}">${created}</time>`;
-		document.getElementById("updated").innerHTML =
+		(document.getElementById("updated") as HTMLParagraphElement).innerHTML =
 			`<em>Updated</em>: <time datetime="${updated}">${updated}</time>`;
 		// document.getElementById("visitors").innerHTML =
 		//   `<em>Visits</em>: ${json.views}`;
-		document.getElementById("followers").innerHTML =
+		(document.getElementById("followers") as HTMLParagraphElement).innerHTML =
 			`<em>Followers</em>: ${json.followers}`;
 
-		const container = document.getElementById("views-counter");
+		const container = document.getElementById(
+			"views-counter",
+		) as HTMLDivElement;
 		const digits = json.views.toString().split(""); // Split the number into individual digits
 		container.innerHTML = ""; // Clear previous content
 
@@ -35,11 +50,13 @@ async function fetchNekostats(username) {
 
 			container.appendChild(img);
 		}
-	} catch (error) {
+	} catch (error: unknown) {
 		console.error(error);
 
-		const container = document.getElementById("views-counter");
-		const subtitle = document.getElementById("subtitle");
+		const container = document.getElementById(
+			"views-counter",
+		) as HTMLDivElement;
+		const subtitle = document.getElementById("subtitle") as HTMLDivElement;
 
 		subtitle.innerHTML = "Script failed Noooooo";
 		container.innerHTML = "";

@@ -24,6 +24,6 @@ theme_color: "#722014"
 
 navigation:
   header:
-    - Main: /main/
+    - Main: /
     - Grid: /grid/
     - Blogs: /blogs/
