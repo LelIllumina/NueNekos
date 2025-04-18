@@ -3,16 +3,16 @@ include: [motion]
 ---
 
 [#grid]
-    [! img/img028.png]
-    [! img/img030.png]
-    [! img/img036.png]
+    [! img/img028.jpg]
+    [! img/img030.jpg]
+    [! img/img036.jpg]
     [#title]
             ## Neko Leliel  
             # Evangelion  
-    [! img/img038.png]
-    [! img/img040.png]
-    [! img/img046.png]
+    [! img/img038.jpg]
+    [! img/img040.jpg]
+    [! img/img046.jpg]
     [#contents]
             At the end of the day, Its a sunset
-    [! img/img048.png]
-    [! img/img056.png]
+    [! img/img048.jpg]
+    [! img/img056.jpg]
