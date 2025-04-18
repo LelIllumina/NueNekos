@@ -19,9 +19,10 @@ h1 {
 	color: var(--tan);
 	text-shadow: 2px 2px greenyellow;
 	font-feature-settings: "liga" 1, "clig" 1, "dlig" 1, "ss01" 1, "ss02" 1;
+	margin: auto;
 }
 h2 {
-	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	font-family: "Amplitude", Cochin, Georgia, Times, "Times New Roman", serif;
 	text-align: center;
 }
 
