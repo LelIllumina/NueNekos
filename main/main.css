@@ -67,4 +67,5 @@ marquee img {
 #shortHash {
 	color: var(--van-dyke);
 	background-color: var(--tan);
+	font-size: 24px;
 }
