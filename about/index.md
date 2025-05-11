@@ -13,7 +13,7 @@ pagehead: false
             ## About  
             # Index  
     [! img/106510771_p0_master1200.jpg alt="IRL People" href="people"]
-    [! img/no-comment.png alt="Games" href="Games"]
+    [! img/bunny.png alt="Games" href="Games"]
     [! img/Hakunonposedithered.png alt="Characters" href="chars"]
     [#contents]
             Hover or click on any image for more info
