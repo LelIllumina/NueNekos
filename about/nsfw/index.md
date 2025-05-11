@@ -1,7 +1,8 @@
 ---
 include: [grid]
+exclude: [content]
 footer: false
-
+pagehead: false
 ---
 
 [#grid]
