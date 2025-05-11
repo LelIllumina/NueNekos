@@ -1,19 +1,20 @@
 ---
 include: [grid]
 footer: false
+
 ---
 
 [#grid]
-    [! src="img/img028.jpg" alt="Anime" href="anime"]
+    [! img/img028.jpg]
     [! img/img030.jpg]
     [! img/img036.jpg]
     [#title]
-            ## About  
-            # Index  
+            ## Neko Leliel  
+            # Evangelion  
     [! img/img038.jpg]
     [! img/img040.jpg]
     [! img/img046.jpg]
     [#contents]
-            Hover or click on any image for more info
+            At the end of the day, Its a sunset
     [! img/img048.jpg]
     [! img/img056.jpg]
