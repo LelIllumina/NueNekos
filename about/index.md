@@ -1,5 +1,6 @@
 ---
 include: [grid]
+exclude: [content]
 footer: false
 ---
 
