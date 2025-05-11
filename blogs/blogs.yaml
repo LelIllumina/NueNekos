@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=https://json.schemastore.org/nuejs-site.json
 
-include: [ content, cards ]
+include: [ content ]
 
 content_collection: blogs
 sections: true

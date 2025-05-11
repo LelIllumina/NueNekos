@@ -1,74 +1,89 @@
 /* Styling for technical content */
 
-article a {
-	text-underline-offset: 3px;
-	color: var(--tan);
-	font-weight: 500;
+header img {
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 400px;
+  object-fit: cover;
+  mask-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
+}
+.hero-text {
+  z-index: 1;
+  padding-bottom: 10px;
+}
 
-	&:hover {
-		text-decoration-color: var(--ash-gray);
-		text-decoration-thickness: 2px;
-		color: white;
-	}
-	h2 {
-		text-decoration: underline var(--ash-gray) 1px;
-	}
+article a {
+  text-underline-offset: 3px;
+  color: var(--tan);
+  font-weight: 500;
+
+  &:hover {
+    text-decoration-color: var(--ash-gray);
+    text-decoration-thickness: 2px;
+    color: white;
+  }
+  h2 {
+    text-decoration: underline var(--ash-gray) 1px;
+  }
 }
 p a {
-	text-decoration: underline var(--ash-gray) 1px;
+  text-decoration: underline var(--ash-gray) 1px;
 }
 
 h2 {
-	color: var(--ash-gray);
-	font-size: 2rem;
+  color: var(--ash-gray);
+  font-size: 2rem;
 }
 
 li {
-	text-wrap: balance;
-	margin-bottom: 1em;
+  text-wrap: balance;
+  margin-bottom: 1em;
 }
 
 /* syntax highlighted code */
 pre {
-	--glow-padding: 2em;
-	font-size: 105%;
+  --glow-padding: 2em;
+  font-size: 105%;
 }
 
 /* images and code blocks */
 figure {
-	text-align: center;
-	margin: 2em 0;
+  text-align: center;
+  margin: 2em 0;
 }
 
 figcaption {
-	margin: auto;
+  margin: auto;
 }
 
 img {
-	max-width: 100%;
-	max-height: 500px;
-	height: auto;
-	margin: 0 auto;
-	box-shadow: #313029 0px 48px 100px 0px;
-	border-radius: 4px;
+  max-width: 100%;
+  max-height: 500px;
+  height: auto;
+  margin: 0 auto;
+  box-shadow: #313029 0px 48px 100px 0px;
+  border-radius: 4px;
 }
 
 blockquote {
-	border-left: 5px solid var(--tan);
-	text-wrap: balance;
-	padding-left: 1.5em;
-	margin: 2.5em 0;
+  border-left: 5px solid var(--tan);
+  text-wrap: balance;
+  padding-left: 1.5em;
+  margin: 2.5em 0;
 
-	p {
-		line-height: 1.5;
-		font-size: 120%;
-		color: var(--tan);
-	}
+  p {
+    line-height: 1.5;
+    font-size: 120%;
+    color: var(--tan);
+  }
 
-	strong {
-		background-color: var(--marker);
-		font-weight: inherit;
-		padding: .1em .2em;
-		margin-inline: -.2em;
-	}
+  strong {
+    background-color: var(--marker);
+    font-weight: inherit;
+    padding: .1em .2em;
+    margin-inline: -.2em;
+  }
 }
