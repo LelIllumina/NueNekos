@@ -10,7 +10,7 @@ They're quite resilient; I saw one today, an orange wasp of sorts, no matter how
 
 I am not that fond of insects, especially the colorful or “soft” kind. The many legs of centipedes and caterpillars haunt me, even if they do look cool. This ambivalence bleeds through to things like character designs as well, as seen in the below image of me talking about Calne Ca.
 
-![image](https://lel.hadsex.today/77gJ8BxWj.png)
+[! https://lel.hadsex.today/77gJ8BxWj.png alt="Discord screenshot talking about Calne Ca" style="--shadow: #222222;"]
 
 Alongside her appearance, there is also the isopod on her head, which exacerbates that feeling.
 
