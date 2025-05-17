@@ -6,7 +6,7 @@ include: [layout, content, lastfm, main, github]
 
 Welcome to my 3rd Layout! It's still somewhat a work in progress though.
 
-[image]
+[image style="--shadow:#30493f;" ]
     src: /main/img/lel.png
     width: 500px
 
