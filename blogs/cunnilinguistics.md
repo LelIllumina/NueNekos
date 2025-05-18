@@ -3,7 +3,7 @@ title: Cunnilinguistics
 og_description: &desc Languages and stuff
 description: *desc
 date: 2025-05-18
-thumb: &img /blogs/img/aace4401d69553f285b244b61dff8f995b4c92d4aa.jpg
+thumb: &img /blogs/img/aace4401d69553f285b244b61dff8f995b4c92d4.jpg
 og_image: *img
 ---
 
