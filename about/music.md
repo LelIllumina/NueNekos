@@ -1,4 +1,6 @@
 ---
+title: Music
+og_description: About - Music
 include: [grid]
 exclude: [content]
 footer: false
@@ -16,7 +18,7 @@ pagehead: false
     [! img/music/Siren.jpg alt="Siren"]
     [! img/music/SolarRay.jpg alt="SolarRay"]
     [#contents]
-            [<- back](../)
+            [<- back](/about)
 
             [read more](./music/more.html)
     [! img/music/KaiKai.jpg alt="Kai=Kai"]
