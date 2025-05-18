@@ -1,9 +1,10 @@
 ---
 title: "Nekopology"
-og_description: "Addressing the Nekoweb populace on my past actions"
-description: "Addressing the Nekoweb populace on my past actions"
+og_description: &desc "Addressing the Nekoweb populace on my past actions"
+description: *desc
 date: 2024-12-16
-thumb: /blogs/img/thatpose.gif
+thumb: &img /blogs/img/thatpose.gif
+og_image: *img
 ---
 
 Today I would like to break off my hiatus and address my situation with the [Nekoweb Discord Server](https://discord.gg/hvfHKyVS6b).

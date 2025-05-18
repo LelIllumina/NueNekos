@@ -1,9 +1,10 @@
 ---
 title: "Am I an Attention Whore?"
-og_description: "Do I maybe crave some form of validation or is this normal?"
-description: "Do I maybe crave some form of validation or is this normal?"
+og_description: &desc "Do I maybe crave some form of validation or is this normal?"
+description: *desc
 date: 2025-02-05
-thumb: /blogs/img/nhk.jpg
+thumb: &img /blogs/img/nhk.jpg
+og_image: *img
 ---
 
 I often find myself doing stuff just because it seems to get a nice reaction out of people, regardless of whether I actually believe in what's behind the meaning of the things I say or do.  

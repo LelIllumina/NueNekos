@@ -1,9 +1,10 @@
 ---
 title: Incest
-og_description: Gothic Alt Incest
-description: Gothic Alt Incest
+og_description: &desc Gothic Alt Incest
+description: *desc
 date: 2025-05-17
-thumb: /blogs/img/juniper.jpg
+thumb: &img /blogs/img/juniper.jpg
+og_image: *img
 ---
 
 They're quite resilient; I saw one today, an orange wasp of sorts, no matter how much I tried to drown it and beat it dead, it would limp itself dry and try to fly again. Eventually though, it decided to stay down for good.

@@ -1,9 +1,10 @@
 ---
 title: Piracy and Tracking setup
-og_description: I love Piracy
-description: I love Piracy
+og_description: &desc I love Piracy
+description: *desc
 date: 2025-03-21
-thumb: /blogs/img/kidnap.gif
+thumb: &img /blogs/img/kidnap.gif
+og_image: *img
 
 # TODO replace stuff with discription tags
 ---

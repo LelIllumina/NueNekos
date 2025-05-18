@@ -1,9 +1,10 @@
 ---
 title: "A letter"
-og_description: "To: The Hai Castle, Webtopia; From: Knight Lelcelot"
-description: "To: The Hai Castle, Webtopia; From: Knight Lelcelot"
+og_description: &desc "To: The Hai Castle, Webtopia; From: Knight Lelcelot"
+description: *desc 
 date: 2025-03-02
-thumb: /blogs/img/dithered.png
+thumb: &img /blogs/img/dithered.png
+og_image: *img
 ---
 
 Dear young prince and princess of the Haiweb Empire,

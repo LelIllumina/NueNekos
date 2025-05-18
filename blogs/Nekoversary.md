@@ -1,9 +1,10 @@
 ---
 title: "It's my Nekoversary"
-og_description: "It's been a year on Nekoweb."
-description: "It's been a year on Nekoweb."
+og_description: &desc "It's been a year on Nekoweb."
+description: *desc
 date: 2025-02-28
-thumb: /blogs/img/giphy.gif
+thumb: &img /blogs/img/giphy.gif
+og_image: *img
 ---
 
 > I noticed this after having written a lot of this but, 2025 dosen't have 29th February. As such ill just release this on the 28th, and you can ignore some issues related to that.

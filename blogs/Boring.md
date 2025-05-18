@@ -1,9 +1,10 @@
 ---
 title: "I'm a boring mf"
-og_description: "I'm quite uninteresting IDK how y'all do it."
-description: "I'm quite uninteresting IDK how y'all do it."
+og_description: &desc "I'm quite uninteresting IDK how y'all do it."
+description: *desc
 date: 2025-02-02
-thumb: /blogs/img/SaintLelsVCR.png
+thumb: &img /blogs/img/SaintLelsVCR.png
+og_image: *img
 ---
 
 Talking online makes me realize just how little I have to contribute to a conversation. Most of my interactions online are just bandwagoning or jumping on a hype train about some topic, and not really anything of worth or positive contribution. I have no topics beyond basic banter or dumb jokes — usually related to gooning of all things.

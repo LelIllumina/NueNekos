@@ -1,9 +1,10 @@
 ---
 title: "My Apology"
-og_description: "I must apologize"
-description: "I must apologize"
+og_description: &desc "I must apologize"
+description: *desc
 date: 2025-03-11
-thumb: /blogs/img/thing.png
+thumb: &img /blogs/img/thing.png
+og_image: *img
 ---
 
 I must apologize to the nekoweb server for having ever stepped foot there  

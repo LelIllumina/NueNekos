@@ -1,10 +1,10 @@
 ---
 title: "Hakunon my Beloved"
-og_description: "I love her so much"
-description: "I love her so much"
+og_description: &desc "I love her so much"
+description: *desc
 date: 2024-09-23
-thumb: /blogs/img/hakunon/HakunonAndHakunot.jpg
-
+thumb: &img /blogs/img/hakunon/HakunonAndHakunot.jpg
+og_image: *img
 ---
 
 I love her so much, I love all Female Main Characters so much!!
