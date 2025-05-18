@@ -1,5 +1,6 @@
 ---
-include: [ motion, forms ]
+include: [forms]
+title: Index
 og: /img/bg.png
 footer: false
 ---

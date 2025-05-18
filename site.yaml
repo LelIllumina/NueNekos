@@ -10,17 +10,15 @@ inline_css: true
 sections: true
 heading_ids: true
 
-
-title_template: "Lel@Nekoweb.org / %s"
+title_template: "%s //\\\\ Lel@Nekoweb.org"
 author: Lel Illumina
-favicon: /img/favicon.png
+favicon: /favicon.png
 description: All Nekos are mine.
 port: 8083
 
 # OG image
 origin: https://lel.nekoweb.org
 theme_color: "#722014"
-
 
 navigation:
   header:
