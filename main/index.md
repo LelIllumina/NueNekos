@@ -15,7 +15,7 @@ Ive been told this layout sucks, well fuck you
 [#stuff]
     ## Socials (will add more)
     [#grid]
-        [! img/gijinka/Github.jpg alt="Github" href=""]
-        [! img/gijinka/Discord.jpg alt="Discord" href=""]
-        [! img/gijinka/Twitter.png alt="Twitter" href=""]
+        [! img/gijinka/github.jpg alt="Github" href=""]
+        [! img/gijinka/discord.jpg alt="Discord" href=""]
+        [! img/gijinka/twitter.png alt="Twitter" href=""]
     Ill add stuff here, to be added, will be born, being made, rn empty, to be filled
