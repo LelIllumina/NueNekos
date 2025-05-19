@@ -69,3 +69,13 @@ marquee img {
 	background-color: var(--tan);
 	font-size: 24px;
 }
+
+#grid {
+	display: inline-flex;
+	img {
+		height: 150px;
+		width: 150px;
+		object-fit: cover;
+		object-position: top left;
+	}
+}
