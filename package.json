@@ -16,7 +16,7 @@
 	},
 	"trustedDependencies": ["@biomejs/biome"],
 	"scripts": {
-		"nue": "nue",
+		"nue": "nue init && nue build && nue",
 		"lint": "biome check ./ --unsafe --fix"
 	}
 }
