@@ -26,6 +26,7 @@
 	height: 100px;
 	width: 100px;
 	object-fit: cover;
+	object-position: inherit;
 	/* box-shadow: #313029f4 0px 48px 100px 0px; */
 }
 #title {
