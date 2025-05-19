@@ -36,6 +36,7 @@ marquee img {
 	display: flex;
 	justify-content: space-around;
 	width: 100%;
+	max-width: 200px;
 	text-align: center;
 	margin: 10px auto;
 }
@@ -62,6 +63,10 @@ marquee img {
 
 #commitLink > div > div:hover {
 	border: 3px dashed var(--navy-blue);
+}
+
+#commitLatest {
+	font-size: 1.5rem;
 }
 
 #shortHash {
