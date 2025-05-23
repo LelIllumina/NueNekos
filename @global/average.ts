@@ -1,11 +1,11 @@
-import { FastAverageColor } from "fast-average-color";
+import { FastAverageColor } from "https://esm.sh/fast-average-color";
 
 const fac = new FastAverageColor();
 
 const figures = document.querySelectorAll("figure");
 
 for (const figure of figures) {
-	const image = figure.querySelector("img") as HTMLImageElement;
+	const image = figure.querySelector("img");
 
 	if (!image) continue;
 
