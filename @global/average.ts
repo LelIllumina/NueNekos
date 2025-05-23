@@ -10,7 +10,7 @@ for (const figure of figures) {
 	if (!image) continue;
 
 	fac
-		.getColorAsync(image)
+		.getColorAsync(image, { algorithm: "simple" })
 		.then((color) => {
 			image.style.filter = `drop-shadow(0 0px 40px ${color.rgba})`;
 		})

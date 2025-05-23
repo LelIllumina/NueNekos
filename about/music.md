@@ -16,7 +16,7 @@ pagehead: false
             # Music  
     [! img/music/BlueLimbo.jpg alt="BlueLimbo"]
     [! img/music/Siren.jpg alt="Siren"]
-    [! img/music/SolarRay.jpg alt="SolarRay"]
+    [! img/music/SimCity.png alt="SimCity"]
     [#contents]
             [<- back](/about)
 
