@@ -6,6 +6,7 @@ libs: ["@library"]
 # view_transitions: true
 native_css_nesting: true
 inline_css: true
+minify_css: true
 
 sections: true
 heading_ids: true
