@@ -23,3 +23,9 @@ But not all is bad, there are a few insects that I am quite into. While not exac
 
 However. For me, there is one that is better than all the rest, for some reason, I can't help but be happy when I see one. I have taken a liking to calling them “Goth Butterflies.” These are, of course, Moths.
 There is just something about them that sets them apart, even though they fly around, which usually is quite frightening, is never the case with these. They don't make annoying buzzing noises and just have big cool wings. They don't bite or harm you in any way, and typically don't even get close to you, but well, they do eat up your clothes a little. In the end, though, they're just very pleasant fuzzy creatures that, compared to the others, are miles better. I love Moths. 
+
+---
+
+P.S Im adding this later but I am quite fond of this image of leaf, her wings remind me of fly wings but I still think shes goated.
+
+[! img/incest/sensei_doodle_sensei_nozomi_and_leaf_blue_archive_and_1_more_drawn_by_jiejiang_salty__sample-31667500f88ef2cbfdecaac3118e878b.jpg alt="Leaf"]
