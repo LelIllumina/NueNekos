@@ -17,7 +17,7 @@ pagehead: false
     [! img/music/Siren.jpg alt="Siren" href="https://music.youtube.com/playlist?list=OLAK5uy_khAIvHnXFRpdh7_6MtdQ0od0pkT7ilnng&si=JygnV-8iIEHTVjKj"]
     [! img/music/SimCity.png alt="SimCity" href="https://music.youtube.com/watch?v=7LB6UgC51no&si=G6QDt9wCeKFplVJD"]
     [#contents]
-            [<- back](/about)
+            [<- back](/about/)
 
             [read more](./music/more.html)
     [! img/music/KaiKai.jpg alt="Kai=Kai" href="https://music.youtube.com/playlist?list=PLxFqPkoG1qY883o1uw_vZPgoY2fCzEDto&si=XQpTOFnf9bzWuSZ6"]
