@@ -30,7 +30,7 @@ const WS_URL = "wss://scrobbled.tepiloxtl.net/ws/get_last_track/lelillumina";
 const DEFAULT_NO_ART = "/images/NekoFM/NoArt.svg";
 const DEFAULT_NSFW_COVER = "/images/NekoFM/NSFWCOVER.png";
 const LASTFM_DEFAULT_IMG =
-	"https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png";
+	"https://lastfm.freetls.fastly.net/i/u/2a96cbd8b46e442fc41c2b86b821562f.png";
 
 const lastFmStatus = document.getElementById(
 	"lastfm-status",
