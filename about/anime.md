@@ -1,7 +1,6 @@
 ---
 title: Anime
 og_description: About - Anime
-include: [grid]
 exclude: [content]
 footer: false
 pagehead: false

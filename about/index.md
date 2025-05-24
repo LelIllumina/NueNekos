@@ -1,5 +1,6 @@
 ---
-include: [grid]
+title: About
+og_description: About - Index
 exclude: [content]
 footer: false
 pagehead: false

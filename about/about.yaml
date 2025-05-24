@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://json.schemastore.org/nuejs-site.json
 
-include: [ content ]
+include: [ content, grid ]
 
-content_collection: blogs
+content_collection: about
 sections: true
 heading_ids: true

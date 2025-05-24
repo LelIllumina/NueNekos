@@ -2,7 +2,7 @@
 include: [layout, content, lastfm, main, github]
 ---
 
-# Hey bro its me your homie in love
+# I fucking hate nuejs
 
 Welcome to my 3rd Layout! It's still somewhat a work in progress though.
 
@@ -10,7 +10,7 @@ Welcome to my 3rd Layout! It's still somewhat a work in progress though.
     src: /main/img/lel.png
     width: 500px
 
-Ive been told this layout sucks, well fuck you
+I love myself alot and I would never ever ever try anything against that notion
 
 [#stuff]
     ## Socials (will add more)
