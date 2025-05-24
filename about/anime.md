@@ -15,7 +15,7 @@ pagehead: false
             # Anime  
     [! img/anime/5a467b81f922f2a48d9ae6c0a4e40ca3.jpg caption="Fate/Zero" style="object-position: top;"]
     [! img/anime/3a4472d9bba9ec88bc90fd6df23dae30.jpg caption="Steins;Gate" style="object-position: top;"]
-    [! img/anime/fa98188a641a3ea68efbe5aba86a5aa4.jpg caption="86" style="object-position: top;"]
+    [! img/anime/fa98188a641a3ea68efbe5aba86a5aa4.jpg caption="Eighty Six" style="object-position: top;"]
     [#contents]
             [<- back](/about/)
 
