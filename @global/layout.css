@@ -62,7 +62,7 @@ body {
 			white-space: nowrap;
 			margin: 0 -100px;
 			color: transparent;
-			-webkit-text-stroke: 0.2px var(--lavender-blush);
+			-webkit-text-stroke: 0.4px var(--lavender-blush);
 		}
 
 		nav {
