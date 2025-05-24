@@ -1,7 +1,8 @@
 ---
 include: [forms]
 title: Index
-og: /img/bg.png
+og_description: Lel@Nekoweb Site.
+og: /img/peak.jpg
 footer: false
 ---
 
