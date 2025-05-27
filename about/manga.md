@@ -9,7 +9,7 @@ pagehead: false
 [#grid]
     [! img/manga/vf2ktm25fc491.webp caption="Ishuzoku Joshi ni ○○ suru Hanashi" loading="eager"]
     <!-- [! img/manga/kdcw_mf00000095040000_68.webp caption="Ishuzoku"] -->
-    [! img/manga/JIua5RzrU5.png caption="Oddman 11" ] loading="eager" 
+    [! img/manga/JIua5RzrU5.png caption="Oddman 11" loading="eager" ] 
     [! img/manga/VaF7xf8e3A.png caption="Kaguhara-san no Fetinote" loading="eager"]
     [#title]
             ## About  
