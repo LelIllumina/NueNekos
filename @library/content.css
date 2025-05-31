@@ -102,3 +102,10 @@ blockquote {
 		margin-inline: -.2em;
 	}
 }
+
+table, th, td {
+	border: 1px solid var(--ash-gray);
+	border-collapse: collapse;
+	padding: 10px;
+	font-size: 1.5rem;
+  }
