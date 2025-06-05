@@ -1,9 +1,9 @@
 ---
 title: "I hate myself"
-og_description: &desc ""
+og_description: &desc "sorry was retarded"
 description: *desc 
 date: 2025-06-02
-thumb: &img /blogs/img/
+thumb: &img /blogs/img/eto-bleh.gif
 og_image: *img
 ---
 
