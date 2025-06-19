@@ -23,6 +23,7 @@
 	figcaption {
 		opacity: 0;
 		transition: opacity 0.3s ease;
+		font-size: 1.5rem;
 	}
 }
 #grid figure:hover figcaption {
