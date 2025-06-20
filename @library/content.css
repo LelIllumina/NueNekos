@@ -60,10 +60,14 @@ article a {
 p a {
 	text-decoration: underline var(--ash-gray) 1px;
 }
+::marker {
+	color: var(--tan);
+}
 
 li {
 	text-wrap: balance;
 	margin-bottom: 1em;
+	list-style: hebrew;
 }
 
 /* syntax highlighted code */
