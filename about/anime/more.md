@@ -7,6 +7,8 @@ thumb: /about/img/anime/blog/1456669133185.jpg
 
 > Basically none of anything I like is objectively good to me. I don't have any in-depth analysis on any of the shows I like; everything I like is purely based on the rating of enjoyment I happened to have and how much I liked investing time in the franchise.
 
+---
+
 ## Kara No Kyoukai
 The absolute GOAT anime movie series, I started watching this after watching all of Fate/Stay Night and binged it all night (Not all in one day though if I remember correctly). The theme and aesthetics were quite cool and I liked the music a lot. Story wise whatever I found fascinating I dont remember anymore as I watched it as a, I think 13 or 14 year old and my stupid brain couldnt be bothered to remember all that.  
 Out of the very few movie series I've watched its my favorite. Also I want shiki to tease slicing me apart with her fingers while taking breaks to eat that Häagen-Dazs®.
@@ -35,3 +37,5 @@ The prequel that was better. Well, it was a slightly different theme from F/SN b
 ## CodeGeass
 
 ## Toaru Franchise
+
+---
