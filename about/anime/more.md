@@ -1,8 +1,9 @@
 ---
 title: Anime
-og_description: Ive watched quite a bit of anime
-description: Ive watched quite a bit of anime
-thumb: /about/img/anime/blog/1456669133185.jpg
+og_description: &desc Ive watched quite a bit of anime
+description: *desc
+thumb: &img /about/img/anime/blog/1456669133185.jpg
+og_image: *img
 ---
 
 > Basically none of anything I like is objectively good to me. I don't have any in-depth analysis on any of the shows I like; everything I like is purely based on the rating of enjoyment I happened to have and how much I liked investing time in the franchise.
