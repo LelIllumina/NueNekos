@@ -2,6 +2,24 @@
 :root {
 	--shadow: #313029;
 }
+h1 {
+	padding: 20px 0 0 0;
+}
+
+h2 {
+	color: var(--ash-gray);
+	font-size: 2rem;
+}
+
+img {
+	max-width: 100%;
+	max-height: 500px;
+	height: auto;
+	margin: 0 auto;
+	/* box-shadow: var(--shadow) 0 0 100px -20px; */
+	filter: drop-shadow(0 0px 40px var(--shadow));
+	border-radius: 4px;
+}
 
 header img {
 	z-index: -1;
@@ -43,15 +61,6 @@ p a {
 	text-decoration: underline var(--ash-gray) 1px;
 }
 
-h1 {
-	padding: 20px 0 0 0;
-}
-
-h2 {
-	color: var(--ash-gray);
-	font-size: 2rem;
-}
-
 li {
 	text-wrap: balance;
 	margin-bottom: 1em;
@@ -73,16 +82,6 @@ figcaption {
 	margin: auto;
 }
 
-img {
-	max-width: 100%;
-	max-height: 500px;
-	height: auto;
-	margin: 0 auto;
-	/* box-shadow: var(--shadow) 0 0 100px -20px; */
-	filter: drop-shadow(0 0px 40px var(--shadow));
-	border-radius: 4px;
-}
-
 blockquote {
 	border-left: 5px solid var(--tan);
 	text-wrap: balance;
@@ -98,8 +97,8 @@ blockquote {
 	strong {
 		background-color: var(--marker);
 		font-weight: inherit;
-		padding: .1em .2em;
-		margin-inline: -.2em;
+		padding: 0.1em 0.2em;
+		margin-inline: -0.2em;
 	}
 }
 

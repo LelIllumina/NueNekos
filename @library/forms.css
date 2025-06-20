@@ -10,7 +10,7 @@ label {
 	margin-bottom: 1em;
 	span {
 		font-weight: 500;
-		margin-bottom: .3em;
+		margin-bottom: 0.3em;
 		display: block;
 	}
 }
@@ -20,15 +20,13 @@ textarea {
 	border: 1px solid var(--gray-200);
 	font-family: inherit;
 	font-size: inherit;
-	padding: .7em 1em;
+	padding: 0.7em 1em;
 	border-radius: 4px;
 	width: 100%;
 }
 
 textarea {
 	resize: vertical;
-	/* biome-ignore lint/correctness/noUnknownProperty: <explanation> */
-	form-sizing: normal;
 	min-height: 80px;
 }
 
@@ -38,7 +36,7 @@ button,
 	font-family: inherit;
 	font-size: inherit;
 	width: 100%;
-	padding: .75em 1.5em;
+	padding: 0.75em 1.5em;
 	border-radius: 4px;
 	font-weight: 550;
 	cursor: pointer;

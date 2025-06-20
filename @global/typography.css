@@ -1,6 +1,13 @@
 body {
-	font-family: "Computer Says No", "Iosevka Etoile", -apple-system,
-		BlinkMacSystemFont, Avenir Next, Segoe UI, Roboto, sans-serif;
+	font-family:
+		"Computer Says No",
+		"Iosevka Etoile",
+		-apple-system,
+		BlinkMacSystemFont,
+		Avenir Next,
+		Segoe UI,
+		Roboto,
+		sans-serif;
 }
 
 /* heading and subtitle */
@@ -14,7 +21,7 @@ h1 {
 		text-align: center;
 		text-wrap: balance;
 		max-width: 40rem;
-		margin: 0 auto .2em;
+		margin: 0 auto 0.2em;
 	}
 
 	+ p {
@@ -39,7 +46,9 @@ a {
 
 	/* navigational links */
 	nav & {
-		font-family: Lemon Milk, sans-serif;
+		font-family:
+			Lemon Milk,
+			sans-serif;
 		font-weight: 500;
 		color: var(--lavender-blush);
 		text-shadow: 1px 1px var(--raisin-black);

@@ -217,7 +217,7 @@ c_form.appendChild(c_replyInput);
 c_replyInput = document.getElementById(`entry.${s_replyId}`);
 
 // Add the invisible iFrame to the document for catching the default Google Forms submisson page
-let v_submitted = false;
+let _v_submitted = false;
 let c_hiddenIframe = document.createElement("iframe");
 c_hiddenIframe.id = "c_hiddenIframe";
 c_hiddenIframe.name = "c_hiddenIframe";
@@ -227,8 +227,8 @@ c_form.appendChild(c_hiddenIframe);
 c_hiddenIframe = document.getElementById("c_hiddenIframe");
 
 // Fix the invisible iFrame so it doesn't keep trying to load stuff
-function fixFrame() {
-	v_submitted = false;
+function _fixFrame() {
+	_v_submitted = false;
 	c_hiddenIframe.srcdoc = "";
 	getComments(); // Reload comments after submission
 }
@@ -637,7 +637,7 @@ function getMonthNum(month) {
 // Handle making replies
 const link = document.createElement("a");
 link.href = "#c_inputDiv";
-function openReply(id) {
+function _openReply(id) {
 	if (c_replyingText.style.display === "none") {
 		c_replyingText.innerHTML = `${s_replyingText} ${id.split("|--|")[0]}...`;
 		c_replyInput.value = id;
@@ -651,7 +651,7 @@ function openReply(id) {
 }
 
 // Handle expanding replies (should only be accessible with collapsed replies enabled)
-function expandReplies(id) {
+function _expandReplies(id) {
 	const targetDiv = document.getElementById(`${id}-replies`);
 	if (targetDiv.style.display === "none") {
 		targetDiv.style.display = "block";
@@ -660,7 +660,7 @@ function expandReplies(id) {
 	}
 }
 
-function changePage(dir) {
+function _changePage(dir) {
 	const leftButton = document.getElementById("c_leftButton");
 	const rightButton = document.getElementById("c_rightButton");
 

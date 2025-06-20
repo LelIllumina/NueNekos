@@ -16,7 +16,9 @@
 		"lightningcss": "^1.30.1",
 		"nuekit": "^1.0.0-RC.4"
 	},
-	"trustedDependencies": ["@biomejs/biome"],
+	"trustedDependencies": [
+		"@biomejs/biome"
+	],
 	"scripts": {
 		"nue": "nue init && nue build && nue -l -b",
 		"lint": "biome check ./ --unsafe --fix"
