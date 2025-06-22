@@ -64,13 +64,13 @@ p a {
 	color: var(--tan);
 }
 
-li {
+li:not(.gallery li) {
 	text-wrap: balance;
 	margin-bottom: 0.5rem;
 	list-style: hebrew;
 }
 li p {
-  margin: 0;
+	margin: 0;
 }
 
 /* syntax highlighted code */
